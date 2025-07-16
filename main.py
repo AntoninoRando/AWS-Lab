@@ -21,7 +21,7 @@ class LambdaImageProcessor:
         Convert image to color scale with minimal memory usage.
         
         Args:
-            image_data: Image bytes or file-like object
+            image_data: Image byt   es or file-like object
             color: RGB color tuple for the color scale
             output_format: Output format ('JPEG', 'PNG', 'WEBP')
             quality: JPEG quality (1-100)
